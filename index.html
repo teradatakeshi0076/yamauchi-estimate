@@ -174,8 +174,7 @@ function calc(){
     <div class="big"><span>選んだ項目の合計（税抜・山内様特別価格）</span><span>${yen(speTotal)}</span></div>
     <div><span>消費税（10%）</span><span>${yen(tax(speTotal))}</span></div>
     <div class="big"><span>税込合計（山内様特別価格）</span><span>${yen(speTotal + tax(speTotal))}</span></div>
-    <div><span>参考：選んだ項目の標準価格（案）合計（税抜）</span><span>${yen(stdTotal)}</span></div>
-    <div class="desc">支払い（案）：契約時50%、公開時50%。保守は未定です。</div>`;
+`;
 
   const status = document.getElementById("status");
   const btn = document.getElementById("doneBtn");
